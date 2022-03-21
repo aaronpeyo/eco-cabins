@@ -1,0 +1,28 @@
+@mixin box-sizing($box-model) {
+    box-sizing: $box-model;
+}
+@mixin telefono {
+    @media (min-width: $telefono) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media (min-width: $tablet) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: $desktop) {
+        @content;
+    }
+}
+
+@mixin btn($color-texto, $color-bg) {
+    border-radius: .4rem;
+    color: $color-texto;
+    background-color: $color-bg;
+    text-align: center;
+    padding: 1rem 2.15rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
