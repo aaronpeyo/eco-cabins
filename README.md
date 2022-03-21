@@ -1,2 +1,5 @@
-# eco-cabins
-Landing page, advertising for the sale of cabin services
+## Instalar estas dependencias
+- gulp
+- gulp-autoprefixer
+- gulp-sass
+- sass
